@@ -1,0 +1,5 @@
+<%= form_tag("/elements/view", :method => "get") do %>
+  <%= label_tag(:twitter_handle, "Twitter handle:") %>
+  <%= text_field_tag(:twitter_handle) %>
+  <%= submit_tag("Generate") %>
+<% end %>
